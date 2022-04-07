@@ -34,7 +34,7 @@
 
 # 原型图
 
-![easyoffice_v1](./img/easyoffice_v1.JPG)
+![easyoffice_v1](./img/easyoffice_v1.jpg)
 
 
 
