@@ -10,3 +10,9 @@
 
 [功能特点](./doc/feature.md)
 
+启动：
+conda activate easy_office
+
+
+images的图片均来源于paddleocr与easyocr仓库。
+
