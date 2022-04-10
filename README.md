@@ -13,6 +13,8 @@
 启动：
 conda activate easy_office
 
+paddle ocr 环境：
+conda activate paddle_env
 
 images的图片均来源于paddleocr与easyocr仓库。
 
