@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef2c2e0-4a57-42c1-a8d7-4e088c47bd41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/images/00015504.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/00018069.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/00057937.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main_paddleocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/main_paddleocr.py" afterDir="false" />
-    </list>
+    <list default="true" id="bef2c2e0-4a57-42c1-a8d7-4e088c47bd41" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

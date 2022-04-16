@@ -18,3 +18,6 @@ conda activate paddle_env
 
 images的图片均来源于paddleocr与easyocr仓库。
 
+表格识别参考：https://www.pythonheidong.com/blog/article/1206744/e1b4ca293bb92e27f681/
+
+文档识别参考：https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.2/doc/doc_ch/multi_languages.md
