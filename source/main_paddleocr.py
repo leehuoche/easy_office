@@ -2,6 +2,7 @@ import os
 
 import paddleocr
 import docx
+import paddleocr_excel
 
 # Paddleocr supports Chinese, English, French, German, Korean and Japanese.
 # You can set the parameter `lang` as `ch`, `en`, `fr`, `german`, `korean`, `japan`
@@ -49,11 +50,25 @@ def parse_images_in_dir(files):
         document.save(doc_path)
         # print(result)
 
+
+def parse_excel_imag_in_dir(files):
+    pass
+
+
 def main():
     path="../images"
     files = list_path_file(path)
     parse_images_in_dir(files)
 
 
+def main_excel():
+    table_engine = paddleocr.PPStructure(show_log=True)
+    path = "../images/table"
+    files = list_path_file(path)
+    save_folder = '../output/table'
+    # img_path = '../images/00015504.jpg'
+    for img_path in files:
+        paddleocr_excel.parse_excel_imag(table_engine, save_folder, img_path)
+
 if __name__ == '__main__':
-    main()
+    main_excel()
