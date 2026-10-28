@@ -1,1 +1,3 @@
-./output/*
+/easy_office/output/*
+**/__pycache__/
+*.py[cod]

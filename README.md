@@ -1,23 +1,40 @@
-# easy_office
+# easy_life
 
-## 介绍：
+生活与工作中的实用工具集合。
 
-普通的工作中，有许多简单、重复、琐碎的工作。大家的平均电脑水平不高。工作中有一些繁琐的工作例如拍照片，整理照片中的文字，收集手填的表格，整理成为电子表格。这些工作耗时费力。网上自动化办公已经流行多年，大多是教人如何使用python的定制化库。即使python已经很容易上手，但是对于普通人来讲，他们并没有时间、精力、能力来学习编程。因此如果能将这两类问题自动化，人们只是来做审核，会节省他们大量的宝贵时间。
+## 子项目
 
+- [easy_office](./easy_office/README.md)：原办公自动化项目，包含 OCR、表格处理等代码和资料。
+- [easy_cooker](./easy_cooker/README.md)：小餐厅后厨调度模型、Python 原型及验证脚本。
 
+## 目录结构
 
-## 软件的要求：
+```text
+easy_life/
+├── .git/
+├── LICENSE
+├── README.md
+├── easy_office/
+│   ├── README.md
+│   ├── source/
+│   ├── doc/
+│   ├── images/
+│   └── ...
+└── easy_cooker/
+    ├── app/
+    ├── tests/
+    ├── main.py
+    └── ...
+```
 
-[功能特点](./doc/feature.md)
+Git 历史保留在仓库根目录。两个子项目使用各自的运行目录和说明。
 
-启动：
-conda activate easy_office
+## 运行 easy_cooker
 
-paddle ocr 环境：
-conda activate paddle_env
+```bash
+cd easy_cooker
+python3 demo.py
+python3 main.py
+```
 
-images的图片均来源于paddleocr与easyocr仓库。
-
-表格识别参考：https://www.pythonheidong.com/blog/article/1206744/e1b4ca293bb92e27f681/
-
-文档识别参考：https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.2/doc/doc_ch/multi_languages.md
+原办公项目的相对资源路径保留，使用时进入 `easy_office` 下的相应原运行目录。

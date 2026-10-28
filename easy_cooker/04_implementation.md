@@ -5,7 +5,7 @@
 Python 3.9及以上，仅使用标准库，无需安装第三方依赖。HTTP 服务用于本地原型验证，默认只监听本机；不具备生产服务所需的认证、持久化与部署保障。
 
 ```bash
-cd /Users/a1/work/code/littlelife/easy_office/easy_cooker
+cd /Users/a1/work/code/littlelife/easy_life/easy_cooker
 python3 main.py --chefs 2 --tables 8 --first-course-seconds 900
 ```
 
@@ -16,7 +16,7 @@ python3 main.py --chefs 2 --tables 8 --first-course-seconds 900
 保持 `main.py` 运行，在另一个终端执行：
 
 ```bash
-cd /Users/a1/work/code/littlelife/easy_office/easy_cooker
+cd /Users/a1/work/code/littlelife/easy_life/easy_cooker
 python3 verify_http.py --table 1
 ```
 
