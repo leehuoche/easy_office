@@ -1,3 +1,3 @@
-/easy_office/output/*
+/easy_image_ocr/output/*
 **/__pycache__/
 *.py[cod]
